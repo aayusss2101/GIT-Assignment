@@ -4,14 +4,17 @@
 
 Steps Taken:
  
-Created an empty repository named GIT-Assignment
+1. Created an empty repository named GIT-Assignment
 
 
 
-Cloned the repository in my local system using the command:
+2. Cloned the repository in my local system using the command:
+
 git clone https://github.com/aayusss2101/GIT-Assignment
 
-Created a file in main branch and pushed it to remote, using the following set of commands:
+
+
+3. Created a file in main branch and pushed it to remote, using the following set of commands:
 
 echo "This is a demo file" > demo.text
 
@@ -23,7 +26,7 @@ git push origin main
 
 
 
-Created branch named Integration and pushed it to remote, using the following commands:
+4. Created branch named Integration and pushed it to remote, using the following commands:
 
 git checkout -b Integration
 
@@ -31,7 +34,7 @@ git push origin Integration
 
 
 
-Created branch named HotFix and pushed it to remote, using the following commands:
+5. Created branch named HotFix and pushed it to remote, using the following commands:
 
 git checkout -b HotFix
 
@@ -39,7 +42,7 @@ git push origin HotFix
 
 
 
-Created two branches, Feature1 and Feature2, from Integration branch, using the following commands:
+6. Created two branches, Feature1 and Feature2, from Integration branch, using the following commands:
 
 git checkout -b Feature1 Integration
 
@@ -47,7 +50,7 @@ git checkout -b Feature2 Integration
 
 
 
-Switched to Feature2 branch, made some changes and pushed it to remote, using the following commands:
+7. Switched to Feature2 branch, made some changes and pushed it to remote, using the following commands:
 
 git switch Feature2
 
@@ -61,19 +64,19 @@ git push origin Feature2
 
 
 
-Now went to GitHub and created a PR to Integration branch.
+8. Now went to GitHub and created a PR to Integration branch.
 
-After successfully merging deleted the Feature2 branch.
+9. After successfully merging deleted the Feature2 branch.
 
 
 
-Pulled Integration branch from remote, using the command
+10. Pulled Integration branch from remote, using the command
 
 git pull origin Integration
 
 
 
-Switched to Feature1 branch and made some changes, using the following commands:
+11. Switched to Feature1 branch and made some changes, using the following commands:
 
 git switch Feature1
 
@@ -85,23 +88,23 @@ git commit -m "Created feature1.txt file in branch Feature1"
 
 
 
-Rebased Feature1 to Integration, using the following commands:
+12. Rebased Feature1 to Integration, using the following commands:
 
 git rebase Integration Feature1
 
 
 
-Switched to Integration branch and pushed the changes to remote, using the command
+13. Switched to Integration branch and pushed the changes to remote, using the command
 
 git push origin Integration
 
 
 
-Now went to GitHub and create a PR request from Integration to HotFix branch and main branch and merged the changes after reviewing.
+14. Now went to GitHub and create a PR request from Integration to HotFix branch and main branch and merged the changes after reviewing.
 
 
 
-Switched to Feature1 branch, did some changes and pushed it to remote, using the following commands:
+15. Switched to Feature1 branch, did some changes and pushed it to remote, using the following commands:
 
 git switch Feature1
 
@@ -115,13 +118,13 @@ git push origin Feature1
 
 
 
-Now once again went to GitHub and creatde a PR request from Feature1 to Integration, HotFix and main branch and merged them after review.
+16. Now once again went to GitHub and creatde a PR request from Feature1 to Integration, HotFix and main branch and merged them after review.
 
-Deleted the Feature1 branch.
+17. Deleted the Feature1 branch.
 
 
 
-Switched to HotFix branch, committed some changes and pushed the branch to remote, using the following commands:
+18. Switched to HotFix branch, committed some changes and pushed the branch to remote, using the following commands:
 
 git switch HotFix
 
@@ -137,4 +140,4 @@ git push origin HotFix
 
 
 
-Finally went to GitHub and created a PR request from HotFix to Integration and main branch and merged the changes after review.
+19. Finally went to GitHub and created a PR request from HotFix to Integration and main branch and merged the changes after review.

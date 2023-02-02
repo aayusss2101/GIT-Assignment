@@ -73,7 +73,6 @@ git push origin Feature2
 10. Pulled Integration branch from remote, using the command
 ```
 git pull origin Integration
-
 ```
 
 11. Switched to Feature1 branch and made some changes, using the following commands:

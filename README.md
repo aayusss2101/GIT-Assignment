@@ -9,9 +9,9 @@ Steps Taken:
 
 
 2. Cloned the repository in my local system using the command:
-
+```
 git clone https://github.com/aayusss2101/GIT-Assignment
-
+```
 
 
 3. Created a file in main branch and pushed it to remote, using the following set of commands:
